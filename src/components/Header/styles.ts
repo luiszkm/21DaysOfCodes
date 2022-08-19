@@ -9,16 +9,14 @@ export const Container = styled.header`
   width: 100%;
   height: 8rem;
 
-
 `
 
 export const Nav = styled.nav`
+
   >ul{
     display: flex;
     align-items: center;
     gap:1.3rem;
   }
-
-
 
 ` 

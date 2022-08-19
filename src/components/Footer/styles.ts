@@ -6,5 +6,5 @@ export const Container = styled.footer`
   justify-content: center;
   width: 1005;
   height: 4rem;
-
+  margin-top: 1px solid gray;
 `
