@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  border: 1px solid black;
+  height: 40rem;
 
-  >section{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-  }
+
 `
