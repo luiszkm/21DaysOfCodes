@@ -1,12 +1,12 @@
 import { Container } from "./styles";
 
 
-type ProjectsProps = {
+type SectionProps = {
   children: any;
   title: string;
 }
 
-export function Projects(props: ProjectsProps) {
+export function Section(props: SectionProps) {
 
   return (
     <Container>
