@@ -1,5 +1,5 @@
 import { Container, Nav } from "./styles";
-
+import { Link } from "react-router-dom";
 
 export function Header(){
 
@@ -8,9 +8,9 @@ export function Header(){
       <h2>21 Days of Codes</h2>
       <Nav>
         <ul>
-          <a href="#"><li>Home</li></a>
-          <a href="#"><li>Projetos</li></a>
-          <a href="#"><li>Contato</li></a>
+          <Link to="/"><li>Home</li></Link>
+          <Link to="/projects"><li>Projetos</li></Link>
+          <Link to="/"><li>Contact</li></Link>
         </ul>
       </Nav>
     </Container>

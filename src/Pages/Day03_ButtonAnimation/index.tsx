@@ -12,7 +12,7 @@ export function Day03(){
       <Header />
       <Section title ="Button Animation">
         <ButtonContainer>
-          <div className="Button"></div>
+          <div className="button"></div>
         </ButtonContainer>
       </Section>
 

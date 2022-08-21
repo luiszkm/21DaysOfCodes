@@ -2,8 +2,9 @@ import { Card } from "../../components/Card";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { Section } from "../../components/Section";
-import { Container , Nav} from "./styles";
+import { Container, Nav } from "./styles";
 
+import { Link } from "react-router-dom";
 
 export function Projects() {
 
@@ -12,11 +13,12 @@ export function Projects() {
       <Header />
       <Section title="Projetos">
         <Nav>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Link to="/day02_hello_world">
+            <Card />
+          </Link>
+          <Link to="/day03_button_animation">
+            <Card />
+          </Link>
         </Nav>
       </Section>
       <Footer />

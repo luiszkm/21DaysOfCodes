@@ -46,10 +46,19 @@ body{
    a:hover{
     cursor: pointer;
     filter: brightness(0.9);
-  }
- // @keyframes rotateAnimation {
-	//from {transform: rotateY(45deg);}
-	//to {transform: rotateY(225deg);}}
+  } @keyframes topToDown {
+    0%{
+      transform:translateY(-50%);
+      opacity: 0;
+    }
+    100%{
+      transform:translateY(0);
+      opacity: 1;
+
+    }
+
+    } 
+
   @keyframes rotateAnimation {
     from {transform: rotateY(45deg)}
     to {transform: rotateY(225deg);}
