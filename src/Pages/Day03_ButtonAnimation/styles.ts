@@ -15,6 +15,8 @@ export const ButtonContainer = styled.div`
   padding: 1px;
   border: 1px solid black;
   border-radius: 4rem;
+  margin: 0 auto;
+  margin-top: 6rem;
 
   >.button{
     width: 4rem;
@@ -22,5 +24,7 @@ export const ButtonContainer = styled.div`
     border-radius: 50%;
     background-color: red;
     cursor: pointer;
+    position: absolute;
+    
   }
 `
